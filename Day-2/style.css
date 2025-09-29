@@ -1,0 +1,38 @@
+.container {
+    /* width: 1000px; */
+    /* height: 700px ; */
+    /* border: 2px solid red; */
+    padding: 100px;
+}
+
+.child-1 {
+    display: inline-block;
+    width: 300px;
+    /* height: 600px; */
+    /* border: 2px solid greenyellow; */
+}
+
+.child-2 {
+    display: inline-block;
+    width: 300px;
+    /* height: 600px; */
+    /* border: 2px solid greenyellow; */
+}
+
+.child-3 {
+    display: inline-block;
+    width: 300px;
+    /* height: 600px; */
+    /* border: 2px solid greenyellow; */
+}
+
+.child-4 {
+    display: inline-block;
+    width: 300px;
+    /* height: 600px; */
+    /* border: 2px solid greenyellow; */
+}
+
+img {
+    width: 100%;
+}
