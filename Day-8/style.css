@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.child-1{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    gap: 10px;
+}
+.child-2{
+    /* border: 2px solid greenyellow; */
+}
