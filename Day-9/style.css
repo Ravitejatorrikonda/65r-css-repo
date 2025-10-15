@@ -1,0 +1,19 @@
+.container{
+    width: 500px;
+    height: 600px;
+    border: 2px solid;
+}
+img{
+    display: none;
+    width: 100%;
+}
+
+.btn1:hover~.img1{
+display: block;
+}
+.btn2:hover~.img2{
+    display: block;
+}
+.btn3:hover~.img3{
+    display: block;
+}
