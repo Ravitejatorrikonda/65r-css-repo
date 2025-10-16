@@ -1,0 +1,44 @@
+/* a:link{
+  color: green;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: red;
+} */
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+/* .container{
+    border: 2px solid red;
+} */
+/* .container>p:nth-last-child(odd){
+    color: red;
+} */
+ /* p::first-letter{
+    font-size: 2rem;
+    color: red;
+    height: 300px;
+ }
+ p::first-line{
+    color: brown;
+ }
+ p::selection{
+    background-color: deeppink;
+    color: deepskyblue;
+
+ } */
+  input:focus{
+    outline: 2px solid red;
+    border: none;
+  }
+  input::placeholder{
+    font-size: 2rem;
+  }
