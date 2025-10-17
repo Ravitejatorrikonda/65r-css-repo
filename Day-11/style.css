@@ -1,0 +1,45 @@
+/* body {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    transition: all 3s ease;
+    animation-name: background;
+    animation-duration: 3s;
+    /* animation-delay: 3s; */
+    /* animation-timing-function: ease; */
+    /* animation-iteration-count: infinite; */
+    /* animation: x 3s ease; */
+    animation:a 3s ease ;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+
+@keyframes a {
+    0%{
+   transform: translate(0px) rotate(360deg);
+   background-color: lightblue;
+    }
+    25%{
+transform: translate(500px);
+    }
+    50%{
+        background-color: greenyellow;
+transform: translate(500px,500px) scale(1.5);
+    }
+    75%{
+transform: translateY(500px)skew(60deg);
+    }
+    100%{
+        background-color: gold;
+      transform: translate(0px);
+    }
+}
