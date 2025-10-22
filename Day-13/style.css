@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color: deeppink;
+}
+
+.container>* {
+    background-color: #203040;
+    color: white;
+}
+
+.child {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+#check {
+    display: none;
+}
+
+.i {
+    font-size: 3rem;
+    /* opacity: 0; */
+    display: none;
+}
+.container:hover{
+        background-color: yellow;
+    }
+
+
+
+@media screen and (width < 600px) {
+    .container {
+        display: none;
+    }
+
+    .i {
+        display: block;
+    }
+
+    #check:checked+.container {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    
+
+}
